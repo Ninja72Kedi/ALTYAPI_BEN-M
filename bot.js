@@ -362,19 +362,8 @@ client.on('ready', () => {
         `${prefix}yardım`
     ];
     
-    client.user.setActivity("Know Bot:https://discord.gg/3BttZWdtKK");
+    client.user.setActivity("mtv!yardım");
     
-  
-      console.log ('_________________________________________');
-      console.log (`Kullanıcı İsmi     : ${client.user.username}`);
-      console.log (`Sunucular          : ${client.guilds.cache.size}`);
-      console.log (`Kullanıcılar       : ${client.users.cache.size}`);
-      console.log (`Prefix             : ${ayarlar.prefix}`);
-      console.log (`Durum              : Bot Çevrimiçi!`);
-      console.log ('_________________________________________');
-    
-    });
-
 
 client.elevation = message => {
   if (!message.guild) {
